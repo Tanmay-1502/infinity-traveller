@@ -1,0 +1,179 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div class="container-fluid my-4">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://source.unsplash.com/1200x600/?nature,water" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1600x600/?river" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1600x600/?sun,water" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </div>
+
+
+<div class="container my-3">
+<h1 class="my-4 text-center">CHOOSE YOUR DREAM DESTINATION</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+        <img src="https://source.unsplash.com/1200x900/?kedarnath" class="d-block w-100" alt="...">
+            
+            <div class="card-body">
+              <p class="card-text">
+              
+              <a class="INDIA-link" href="/india">INCREDIBLE INDIA</a>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Book Tickets</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="https://source.unsplash.com/1200x900/?eiffel-tower" class="d-block w-100" alt="...">
+            <div class="card-body">
+               <p class="card-text">
+              
+              <a class="FRANCE-link" href="/france">FANTASTIC FRANCE</a>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Book Tickets</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="https://source.unsplash.com/1200x900/?switzerland-travel" class="d-block w-100" alt="...">
+            <div class="card-body">
+               <p class="card-text">
+              
+              <a class="SWITZERLAND-link" href="/switzerland">SENSATIONAL SWITZERLAND</a>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Book Tickets</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+           <img src="https://source.unsplash.com/1200x900/?uae-tourism" class="d-block w-100" alt="...">
+            <div class="card-body">
+               <p class="card-text">
+              
+              <a class="uae-link" href="/uae">MESMERIZING UAE</a>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Book Tickets</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="https://source.unsplash.com/1200x900/?opera-house-australia" class="d-block w-100" alt="...">
+           {% comment %} <img src="/static/oph.jpg" class="d-block w-100" alt="opera" {% endcomment %}
+            <div class="card-body">
+               <p class="card-text">
+              
+              <a class="australia-link" href="/australia">AWESOME AUSTRALIA</a>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Book Tickets</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+           <img src="https://source.unsplash.com/1200x900/?bali,travel" class="d-block w-100" alt="...">
+            <div class="card-body">
+               <p class="card-text">
+              
+              <a class="INDONESIA-link" href="/indonesia">ASTHETIC INDONESIA</a>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Price</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Book Tickets</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock body %}
+{% comment %} {% extends 'base.html' %}
+ {% block title %} home {% endblock title %}
+  {%block body %} 
+
+  <div class="container-fluid my-4">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://source.unsplash.com/1200x600/?nature,water" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1600x600/?river" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://source.unsplash.com/1600x600/?sun,water" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </div>
+
+
+
+
+   {% endblock body %}  {% endcomment %}
